@@ -6,7 +6,7 @@ class Botao extends React.Component {
     return (
       <button
       className='botao'>
-        Botão
+        Clique aqui
       </button>
     )
   }
