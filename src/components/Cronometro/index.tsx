@@ -13,8 +13,8 @@ export default function Cronometro({selecionado}: Props) {
     const [tempo, setTempo] = useState<number>();
 
     useEffect(()=> {
-        if(selecionmpo) {
-            
+        if(selecionado?.tempo) {
+            setTempo(tempoSegundos(selecionado.tempo))
         }
     }, [selecionado])
 
